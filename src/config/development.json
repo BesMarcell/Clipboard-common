@@ -5,5 +5,10 @@
     "api": {
       "prefix": "/api/v1"
     }
+  },
+  "db": {
+    "mongo": {
+      "connectionString": "mongodb://localhost/clipbeard-development"
+    }
   }
 }
