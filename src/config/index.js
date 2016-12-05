@@ -1,5 +1,5 @@
-import nconf from 'nconf';
 import { join } from 'path';
+import nconf from 'nconf';
 
 const environment = process.env.NODE_ENV || 'development';
 
@@ -9,4 +9,4 @@ const config = nconf
     file: `${join(__dirname, environment)}.json`
   });
 
-module.exports = config;
+export default config;

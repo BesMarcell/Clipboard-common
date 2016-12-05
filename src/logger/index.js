@@ -1,9 +1,7 @@
-import config from './../config';
 import winston from 'winston';
 
 const Logger = winston.Logger;
 const transports = winston.transports;
-
 
 const logger = new Logger({
   transports: [
@@ -18,4 +16,4 @@ const logger = new Logger({
   ]
 });
 
-module.exports = logger;
+export default logger;
