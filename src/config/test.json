@@ -1,0 +1,14 @@
+{
+  "environment": "development",
+  "server": {
+    "port": 3001,
+    "api": {
+      "prefix": "/api/v1"
+    }
+  },
+  "db": {
+    "mongo": {
+      "connectionString": "mongodb://localhost/clipbeard-test"
+    }
+  }
+}
