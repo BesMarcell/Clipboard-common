@@ -2,5 +2,10 @@
   "environment": "development",
   "server": {
     "port": 3000
+  },
+  "db": {
+    "mongo": {
+      "connectionString": "mongodb://localhost/clipbeard-development"
+    }
   }
 }
