@@ -31,7 +31,8 @@
       ],
       "object-curly-spacing": [
         0
-      ]
+      ],
+       "object-shorthand": [1]
     }
   },
   "devDependencies": {
