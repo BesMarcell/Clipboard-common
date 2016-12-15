@@ -1,7 +1,7 @@
 {
   "environment": "development",
   "server": {
-    "port": 3000,
+    "port": 3003,
     "api": {
       "prefix": "/api/v1"
     }
