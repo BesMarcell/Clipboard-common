@@ -10,5 +10,8 @@
     "mongo": {
       "connectionString": "mongodb://localhost/clipbeard-development"
     }
+  },
+  "cors" : {
+
   }
 }
