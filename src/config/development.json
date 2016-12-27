@@ -12,7 +12,8 @@
     }
   },
   "cors" : {
-
+    "credentials": true,
+    "origin": "http://localhost:3000"
   },
   "redis" : {
     "host": "127.0.0.1",
