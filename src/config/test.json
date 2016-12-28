@@ -10,5 +10,18 @@
     "mongo": {
       "connectionString": "mongodb://localhost/clipbeard-test"
     }
+  },
+  "cors" : {
+    "credentials": true,
+    "origin": "http://localhost:3000"
+  },
+  "redis" : {
+    "host": "127.0.0.1",
+    "port": 6379,
+    "ttl": 3600
+  },
+  "keys" : {
+    "keys" : "'clipbeard'",
+    "keykeys" : "'ui'"
   }
 }
