@@ -21,7 +21,7 @@
     "ttl": 3600
   },
   "keys" : {
-    "keys" : "'clipbeard'",
-    "keykeys" : "'ui'"
+    "secret" : "'clipbeard'",
+    "key" : "'ui'"
   }
 }
